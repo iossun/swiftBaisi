@@ -1,0 +1,23 @@
+PODS:
+  - Alamofire (4.2.0)
+  - SDWebImage (4.0.0-beta2):
+    - SDWebImage/Core (= 4.0.0-beta2)
+  - SDWebImage/Core (4.0.0-beta2)
+  - SnapKit (3.0.2)
+  - SVProgressHUD (2.0.4)
+
+DEPENDENCIES:
+  - Alamofire (~> 4.0)
+  - SDWebImage (~> 4.0.0-beta2)
+  - SnapKit (~> 3.0.2)
+  - SVProgressHUD (~> 2.0.3)
+
+SPEC CHECKSUMS:
+  Alamofire: aa2e09d871c9160ac53c90e83c68064a94e3dfbe
+  SDWebImage: e379f33106cf8d6766f970c0ef1c3fb609c94d78
+  SnapKit: 2e456761aa92d4d4067a7a5594c18769d451a8ad
+  SVProgressHUD: bfde85ed6c573ea802b9cb37894ed9b629034f1b
+
+PODFILE CHECKSUM: 8af6f97c9c905a7c4a474a82639dab5d535ae642
+
+COCOAPODS: 1.1.1

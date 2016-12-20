@@ -1,0 +1,25 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "933c99f6-afff-8f47-bd1f-018e6b4b5e3e++6550",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+    "933c99f6-afff-8f47-bd1f-018e6b4b5e3e++6550" : {
+      "DVTSourceControlWorkingCopyRepositoryPrimaryBranchLocationKey" : "ios\/trunk"
+    }
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "933c99f6-afff-8f47-bd1f-018e6b4b5e3e++6550" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "630FF38D-7D94-4403-9F90-3718AF90F9BD",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "933c99f6-afff-8f47-bd1f-018e6b4b5e3e++6550" : "swift%E7%99%BE%E6%80%9D\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "swift百思",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "swift百思\/swift百思.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "http:\/\/10.12.6.102\/svn\/zl",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Subversion",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "933c99f6-afff-8f47-bd1f-018e6b4b5e3e++6550"
+    }
+  ]
+}
