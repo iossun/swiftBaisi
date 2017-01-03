@@ -49,9 +49,22 @@ class TopicPictureView: UIView {
         super.awakeFromNib()
         // 从xib中加载进来的控件的autoresizingMask默认是UIViewAutoresizingFlexibleWidth | UIViewAutoresizingFlexibleHeight
           autoresizingMask = []
-          self.imageView.isUserInteractionEnabled = true
+        self.imageView.isUserInteractionEnabled = true
+        self.imageView.addGestureRecognizer(UITapGestureRecognizer.init(target: self, action:#selector(seeBig)));
        }
+    
+    @objc func seeBig(){
+        let seeBigVC = SeeBigViewController()
+        guard let topic = self.topic else {
+            return
+        }
+        seeBigVC.topic = topic
+        UIApplication.shared.keyWindow?.rootViewController?.present(seeBigVC, animated: true, completion: nil)
+        
+    }
     
     @IBAction func seeBigButtonClick(_ sender: Any) {
     }
+    
+    
 }

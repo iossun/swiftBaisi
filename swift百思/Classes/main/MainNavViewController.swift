@@ -12,7 +12,7 @@ class MainNavViewController: UINavigationController,UIGestureRecognizerDelegate 
 
     override func viewDidLoad() {
         super.viewDidLoad()
-       
+    
         interactivePopGestureRecognizer?.delegate = self
         
         navigationBar.setBackgroundImage(UIImage(named:"navigationbarBackgroundWhite"), for: UIBarMetrics.default)
@@ -59,5 +59,6 @@ class MainNavViewController: UINavigationController,UIGestureRecognizerDelegate 
         
         return childViewControllers.count > 1
     }
-   
+    
+     
   }

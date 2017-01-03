@@ -57,9 +57,9 @@ class MeFootView: UIView {
         for i in 0..<count {
             let button = MeSquareButton(frame: CGRect(x: (i % maxColsCount) * buttonW, y: (i / maxColsCount) * buttonH, width: buttonW, height: buttonH))
            
-             button.square = square[i]
+            button.square = square[i]
             button.addTarget(self, action:#selector(buttonClick(btn:)), for: UIControlEvents.touchUpInside)
-             addSubview(button)
+            addSubview(button)
         }
     
         frame.size.height = (subviews.last?.frame.maxY)!

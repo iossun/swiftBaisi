@@ -62,6 +62,8 @@ class topic: NSObject {
     var  contentF: CGRect?
     /** 是否为超长图片 */
     var  bigPicture: Int = 0
+    
+    var videouri:String?
   
     
     init(dict: [String: AnyObject]) {

@@ -38,4 +38,11 @@ class TopicVideoView: UIView {
         self.imageView.isUserInteractionEnabled = true
 
     }
+    @IBAction func playVideo(_ sender: Any) {
+        let playVC = videoPlayViewController()
+        playVC.URL =  NSURL(string: (topic?.videouri)!)
+        
+         UIApplication.shared.keyWindow?.rootViewController?.present(playVC, animated: true, completion: nil)
+
+    }
 }

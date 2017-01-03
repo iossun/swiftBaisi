@@ -41,7 +41,7 @@
 		BCC76A301DDEF6810072E1C7 /* CommentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCC76A2F1DDEF6810072E1C7 /* CommentViewController.swift */; };
 		BCC76A321DDEF9590072E1C7 /* EssenceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCC76A311DDEF9590072E1C7 /* EssenceViewController.swift */; };
 		BCC76A341DDF00340072E1C7 /* FollowViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCC76A331DDF00340072E1C7 /* FollowViewController.swift */; };
-		BCC76A3D1DE290320072E1C7 /* SMMainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCC76A3C1DE290320072E1C7 /* SMMainViewController.swift */; };
+		BCC76A3D1DE290320072E1C7 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCC76A3C1DE290320072E1C7 /* MainViewController.swift */; };
 		BCC76A3F1DE290E50072E1C7 /* MEViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCC76A3E1DE290E50072E1C7 /* MEViewController.swift */; };
 		BCC76A411DE2940D0072E1C7 /* MainNavViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCC76A401DE2940D0072E1C7 /* MainNavViewController.swift */; };
 		BCC76A431DE298D90072E1C7 /* MovieViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCC76A421DE298D90072E1C7 /* MovieViewController.swift */; };
@@ -49,6 +49,11 @@
 		BCC76A591DE3DCAE0072E1C7 /* UIBarButtonItem+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCC76A581DE3DCAE0072E1C7 /* UIBarButtonItem+Extension.swift */; };
 		BCC76A5B1DE427850072E1C7 /* LoginRegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCC76A5A1DE427850072E1C7 /* LoginRegisterViewController.swift */; };
 		BCC76A6B1DE42F6C0072E1C7 /* LoginRegisterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BCC76A6A1DE42F6C0072E1C7 /* LoginRegisterViewController.xib */; };
+		BCCE513D1E10B3060077E9B1 /* SeeBigViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCCE513B1E10B3050077E9B1 /* SeeBigViewController.swift */; };
+		BCCE513E1E10B3060077E9B1 /* SeeBigViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BCCE513C1E10B3050077E9B1 /* SeeBigViewController.xib */; };
+		BCCE51401E10C7DB0077E9B1 /* videoPlayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCCE513F1E10C7DB0077E9B1 /* videoPlayViewController.swift */; };
+		BCCE51431E10C8AB0077E9B1 /* playerMaskView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCCE51421E10C8AB0077E9B1 /* playerMaskView.swift */; };
+		BCCE51451E10EF680077E9B1 /* player.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCCE51441E10EF680077E9B1 /* player.swift */; };
 		BCD7FFCB1DF8F3FB00E3E507 /* TopicVideoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCD7FFCA1DF8F3FB00E3E507 /* TopicVideoView.swift */; };
 		BCD7FFCD1DF8F45E00E3E507 /* TopicVideoView.xib in Resources */ = {isa = PBXBuildFile; fileRef = BCD7FFCC1DF8F45E00E3E507 /* TopicVideoView.xib */; };
 		BCD7FFCF1DF8F49C00E3E507 /* TopicVoiceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCD7FFCE1DF8F49C00E3E507 /* TopicVoiceView.swift */; };
@@ -116,7 +121,7 @@
 		BCC76A2F1DDEF6810072E1C7 /* CommentViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommentViewController.swift; sourceTree = "<group>"; };
 		BCC76A311DDEF9590072E1C7 /* EssenceViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EssenceViewController.swift; sourceTree = "<group>"; };
 		BCC76A331DDF00340072E1C7 /* FollowViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FollowViewController.swift; sourceTree = "<group>"; };
-		BCC76A3C1DE290320072E1C7 /* SMMainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SMMainViewController.swift; sourceTree = "<group>"; };
+		BCC76A3C1DE290320072E1C7 /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		BCC76A3E1DE290E50072E1C7 /* MEViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MEViewController.swift; sourceTree = "<group>"; };
 		BCC76A401DE2940D0072E1C7 /* MainNavViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainNavViewController.swift; sourceTree = "<group>"; };
 		BCC76A421DE298D90072E1C7 /* MovieViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MovieViewController.swift; sourceTree = "<group>"; };
@@ -124,6 +129,11 @@
 		BCC76A581DE3DCAE0072E1C7 /* UIBarButtonItem+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIBarButtonItem+Extension.swift"; sourceTree = "<group>"; };
 		BCC76A5A1DE427850072E1C7 /* LoginRegisterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginRegisterViewController.swift; sourceTree = "<group>"; };
 		BCC76A6A1DE42F6C0072E1C7 /* LoginRegisterViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LoginRegisterViewController.xib; sourceTree = "<group>"; };
+		BCCE513B1E10B3050077E9B1 /* SeeBigViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SeeBigViewController.swift; sourceTree = "<group>"; };
+		BCCE513C1E10B3050077E9B1 /* SeeBigViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SeeBigViewController.xib; sourceTree = "<group>"; };
+		BCCE513F1E10C7DB0077E9B1 /* videoPlayViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = videoPlayViewController.swift; sourceTree = "<group>"; };
+		BCCE51421E10C8AB0077E9B1 /* playerMaskView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = playerMaskView.swift; sourceTree = "<group>"; };
+		BCCE51441E10EF680077E9B1 /* player.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = player.swift; sourceTree = "<group>"; };
 		BCD7FFCA1DF8F3FB00E3E507 /* TopicVideoView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TopicVideoView.swift; sourceTree = "<group>"; };
 		BCD7FFCC1DF8F45E00E3E507 /* TopicVideoView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TopicVideoView.xib; sourceTree = "<group>"; };
 		BCD7FFCE1DF8F49C00E3E507 /* TopicVoiceView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TopicVoiceView.swift; sourceTree = "<group>"; };
@@ -306,10 +316,14 @@
 				BC9C16E31DE6D34500623C2E /* PictureViewController.swift */,
 				BC9C16E51DE6D35400623C2E /* WordViewController.swift */,
 				BC9C16E71DE7C86400623C2E /* TopicViewController.swift */,
+				BCCE513B1E10B3050077E9B1 /* SeeBigViewController.swift */,
+				BCCE513C1E10B3050077E9B1 /* SeeBigViewController.xib */,
+				BCCE513F1E10C7DB0077E9B1 /* videoPlayViewController.swift */,
+				BC04EA8F1DEFF2D700C7F97C /* Model */,
+				BCC603341DEFC87E00D08508 /* View */,
+				BCCE51411E10C81D0077E9B1 /* player */,
 				BCD7FFD21DF9319800E3E507 /* Refresh */,
 				BC9C16FB1DE7FFE000623C2E /* QRCode */,
-				BCC603341DEFC87E00D08508 /* View */,
-				BC04EA8F1DEFF2D700C7F97C /* Model */,
 			);
 			path = "Essence-精华";
 			sourceTree = "<group>";
@@ -358,7 +372,7 @@
 		BCC76A391DE2890D0072E1C7 /* main */ = {
 			isa = PBXGroup;
 			children = (
-				BCC76A3C1DE290320072E1C7 /* SMMainViewController.swift */,
+				BCC76A3C1DE290320072E1C7 /* MainViewController.swift */,
 				BCC76A401DE2940D0072E1C7 /* MainNavViewController.swift */,
 			);
 			path = main;
@@ -381,6 +395,15 @@
 				BC9A400A1DF150DB00A7106E /* UIImage + Extension.swift */,
 			);
 			path = Extension;
+			sourceTree = "<group>";
+		};
+		BCCE51411E10C81D0077E9B1 /* player */ = {
+			isa = PBXGroup;
+			children = (
+				BCCE51421E10C8AB0077E9B1 /* playerMaskView.swift */,
+				BCCE51441E10EF680077E9B1 /* player.swift */,
+			);
+			path = player;
 			sourceTree = "<group>";
 		};
 		BCD7FFD21DF9319800E3E507 /* Refresh */ = {
@@ -524,6 +547,7 @@
 				BCC603311DEE75A300D08508 /* webViewController.xib in Resources */,
 				BC9C16FD1DE7FFF100623C2E /* QRCodeViewController.storyboard in Resources */,
 				BCC769F91DDED9820072E1C7 /* Assets.xcassets in Resources */,
+				BCCE513E1E10B3060077E9B1 /* SeeBigViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -602,20 +626,23 @@
 				BC9C16FF1DE804C300623C2E /* QRCodeViewController.swift in Sources */,
 				BC9C16DE1DE6D30000623C2E /* VoiceViewController.swift in Sources */,
 				BCC603371DEFC8A500D08508 /* topicCell.swift in Sources */,
-				BCC76A3D1DE290320072E1C7 /* SMMainViewController.swift in Sources */,
+				BCC76A3D1DE290320072E1C7 /* MainViewController.swift in Sources */,
 				BC04EA951DF0033D00C7F97C /* user.swift in Sources */,
 				BC9C16E41DE6D34500623C2E /* PictureViewController.swift in Sources */,
 				BC6E19FF1DE54A9500C17A44 /* QuickLoginButton.swift in Sources */,
 				BC89B7251DED0C23005129B4 /* MeSquare.swift in Sources */,
 				BC9C16E01DE6D30F00623C2E /* AllViewController.swift in Sources */,
 				BCC76A301DDEF6810072E1C7 /* CommentViewController.swift in Sources */,
+				BCCE51431E10C8AB0077E9B1 /* playerMaskView.swift in Sources */,
 				BC04EA911DEFF32C00C7F97C /* topic.swift in Sources */,
 				BCC76A411DE2940D0072E1C7 /* MainNavViewController.swift in Sources */,
+				BCCE51451E10EF680077E9B1 /* player.swift in Sources */,
 				BCC76A321DDEF9590072E1C7 /* EssenceViewController.swift in Sources */,
 				BC9A40111DF7A5CF00A7106E /* TopicPictureView.swift in Sources */,
 				BC89B71C1DEC165B005129B4 /* MeFootView.swift in Sources */,
 				BCC76A431DE298D90072E1C7 /* MovieViewController.swift in Sources */,
 				BCD7FFCF1DF8F49C00E3E507 /* TopicVoiceView.swift in Sources */,
+				BCCE51401E10C7DB0077E9B1 /* videoPlayViewController.swift in Sources */,
 				BC89B7221DEC48D8005129B4 /* NetworkTools.swift in Sources */,
 				BC89B7271DED6274005129B4 /* MeSquareButton.swift in Sources */,
 				BC9C16E81DE7C86400623C2E /* TopicViewController.swift in Sources */,
@@ -627,6 +654,7 @@
 				BC9A400B1DF150DB00A7106E /* UIImage + Extension.swift in Sources */,
 				BC04EA931DF0026300C7F97C /* comment.swift in Sources */,
 				BCC6032B1DED95A000D08508 /* webViewController.swift in Sources */,
+				BCCE513D1E10B3060077E9B1 /* SeeBigViewController.swift in Sources */,
 				BCC76A5B1DE427850072E1C7 /* LoginRegisterViewController.swift in Sources */,
 				BCC76A591DE3DCAE0072E1C7 /* UIBarButtonItem+Extension.swift in Sources */,
 				BCC769F21DDED9820072E1C7 /* AppDelegate.swift in Sources */,

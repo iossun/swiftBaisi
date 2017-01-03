@@ -34,7 +34,7 @@ class RefreshControl: UIRefreshControl {
     
     deinit
     {
-        removeObserver(self, forKeyPath: _btnVoiceTalk)
+        removeObserver(self, forKeyPath: "frame")
     }
     
     override func endRefreshing() {
@@ -54,9 +54,9 @@ class RefreshControl: UIRefreshControl {
         {
             return
         }
-
+        
             // 2.检查是否已经触发下拉刷新
-        if isRefreshing 
+        if isRefreshing
         {
             
             refreshView.startAnimation()

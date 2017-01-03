@@ -19,7 +19,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         
         window = UIWindow(frame: UIScreen.main.bounds);
         window?.backgroundColor = UIColor.white;
-        window?.rootViewController = SMMainViewController();
+        window?.rootViewController = MainViewController();
         window?.makeKeyAndVisible();
         
         // 1.设置全局外观
@@ -49,6 +49,18 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func applicationWillTerminate(_ application: UIApplication) {
         // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
+    }
+    
+    
+    var blockRotation: Bool = false
+    func application(_ application: UIApplication, supportedInterfaceOrientationsFor window: UIWindow?) -> UIInterfaceOrientationMask {
+        if self.blockRotation{
+            return UIInterfaceOrientationMask.all
+        } else {
+            return UIInterfaceOrientationMask.portrait
+        }
+        
+        
     }
     
     
